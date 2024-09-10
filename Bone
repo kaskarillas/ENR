@@ -6,7 +6,7 @@ output: html_document
 ---
 
 
-# Sintaxis para realizar una huella metabolomica de la masa ósea en el considerando:
+# Sintaxis para realizar una huella metabolomica de la masa ósea considerando:
   - Mujeres
   - Menos de 51
 
