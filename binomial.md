@@ -32,9 +32,7 @@ Selección del mejor Alpha y lambda.
 bT = data.frame(matrix(unlist(bT), ncol = 3, byrow= T))
 names(bT) = c("alpha","lambda","accuracy")
 l = bT$lambda[bT$accuracy== max(bT$accuracy)] #0.01597965
-#l = 0.01597965
 alp = bT$alpha[bT$accuracy== max(bT$accuracy)] #0.325
-#alp = 0.325
 ```
 
 #### Selección de los metabolitos
